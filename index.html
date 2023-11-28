@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Finding Via API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body class="font-[Poppins]">
+    <header>
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between py-[30px]">
+                <img src="./assets/images/Tasty_HUT.png" alt="">
+                <button class="text-xl font-bold text-[#100F0F] py-4 px-10 bg-[#FFC107] rounded-lg">Foods</button>
+            </div>
+        </div>
+        <div class="bg-[url('./assets/images/banner_1.png')] bg-center bg-no-repeat bg-cover">
+            <div class="backdrop-brightness-50">
+                <div class="container mx-auto">
+                    <div class="flex flex-col items-center justify-center w-3/5 mx-auto text-center py-40 px-16">
+                        <h1 class="text-[65px] leading-tight font-bold text-white">Taste Our Delicious Best Foods</h1>
+                        <p class="text-lg text-white mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou.</p>
+                        <div class="flex items-center w-full mt-8">
+                            <span class="material-symbols-outlined text-3xl text-[#706F6F] relative left-[45px] top-0">search</span>
+                            <input id="" class="w-10/12 py-4 px-6 ps-14 rounded-s-md me-[-10px] outline-none h-16" type="text" name="" placeholder="Search any food">
+                            <button class="text-xl font-bold text-[#100F0F] py-4 px-9 h-16 bg-[#FFC107] rounded-lg">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <main>
+        <section class="container mx-auto">
+            <div class="pt-24 pb-20">
+                <h2 class="text-center font-semibold text-4xl">Your Favourite Food</h2>
+                <div id="food-container" class="grid grid-cols-2 gap-6 mt-12">
+                    <div class="food flex gap-6 items-center border border-[#100f0f1a] rounded-lg">
+                        <div>
+                            <img class="rounded-s-lg" src="./assets/images/Rectangle 3980.png" alt="">
+                        </div>
+                        <div class="pe-7">
+                            <h4 class="text-[#403F3F] text-[25px] font-bold mb-4">Chicken handi</h4>
+                            <p class="text-[#706F6F] text-lg font-normal mb-6 ">There are many variations of passages of available, but the majority have suffered</p>
+                            <button class="text-[#FFC107] text-lg font-semibold underline hover:no-underline">View Details</button>
+                        </div>
+                    </div>   
+                    <div class="food flex gap-6 items-center border border-[#100f0f1a] rounded-lg">
+                        <div>
+                            <img class="rounded-s-lg" src="./assets/images/Rectangle 3980.png" alt="">
+                        </div>
+                        <div class="pe-7">
+                            <h4 class="text-[#403F3F] text-[25px] font-bold mb-4">Chicken handi</h4>
+                            <p class="text-[#706F6F] text-lg font-normal mb-6 ">There are many variations of passages of available, but the majority have suffered</p>
+                            <button class="text-[#FFC107] text-lg font-semibold underline hover:no-underline">View Details</button>
+                        </div>
+                    </div>   
+                    <div class="food flex gap-6 items-center border border-[#100f0f1a] rounded-lg">
+                        <div>
+                            <img class="rounded-s-lg" src="./assets/images/Rectangle 3980.png" alt="">
+                        </div>
+                        <div class="pe-7">
+                            <h4 class="text-[#403F3F] text-[25px] font-bold mb-4">Chicken handi</h4>
+                            <p class="text-[#706F6F] text-lg font-normal mb-6 ">There are many variations of passages of available, but the majority have suffered</p>
+                            <button class="text-[#FFC107] text-lg font-semibold underline hover:no-underline">View Details</button>
+                        </div>
+                    </div>   
+                    <div class="food flex gap-6 items-center border border-[#100f0f1a] rounded-lg">
+                        <div>
+                            <img class="rounded-s-lg" src="./assets/images/Rectangle 3980.png" alt="">
+                        </div>
+                        <div class="pe-7">
+                            <h4 class="text-[#403F3F] text-[25px] font-bold mb-4">Chicken handi</h4>
+                            <p class="text-[#706F6F] text-lg font-normal mb-6 ">There are many variations of passages of available, but the majority have suffered</p>
+                            <button class="text-[#FFC107] text-lg font-semibold underline hover:no-underline">View Details</button>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
